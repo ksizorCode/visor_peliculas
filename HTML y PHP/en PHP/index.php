@@ -5,6 +5,7 @@ $titulo="Cine Tricampus";
 $salas=[
     ['Barbie','barbie.jpg','16:00','18:00','20:00'],
     ['Mision Imposible','misionimposible.jpg','16:00','18:00','20:00'],
+    ['Megalodon','megalodon-2.jpg','16:00','18:00','20:00'],
     ['Oppenheimer','Oppenheimer.jpg','16:00','18:00','20:00']
 ];
 
@@ -30,6 +31,19 @@ $salas=[
     <p>Esta semana te ofrecemos en nuestra cartelera, todos los días de Lunes a Domingo las siguientes películas:</p>
 
 <ul>
+
+<?
+
+foreach($salas as $misala){
+    echo '<li>';
+    echo '<h3>'.$misala[0].'<h3>';
+    echo '</li>';
+
+}
+
+
+
+?>
     <li>
         <img src="img/<? echo $sala1[1]?>" alt="Misión Imposible 7">
         <h3><? echo $sala1[0]?></h3>
@@ -38,21 +52,7 @@ $salas=[
         <p><? echo $sala1[4]?></p>
     </li>
 
-    <li>
-        <img src="img/<? echo $sala2[0]?>" alt="Barbie">
-        <h3><? echo $sala2[0]?></h3>
-        <p><? echo $sala2[2]?></p>
-        <p><? echo $sala2[3]?></p>
-        <p><? echo $sala2[4]?></p>
-    </li>
 
-    <li>
-        <img src="img/<? echo $sala3[0]?>" alt="Megalodón 2">
-        <h3><? echo $sala3[0]?></h3>
-        <p><? echo $sala3[2]?></p>
-        <p><? echo $sala3[3]?></p>
-        <p><? echo $sala3[4]?></p>
-    </li>
 
 </ul>
 
