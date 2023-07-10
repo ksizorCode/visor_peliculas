@@ -1,18 +1,32 @@
-
-
 <?
-//esto es un comentario de línea
+$nombre="Funkos ciencia ficción";
+$year=2029;
+$idioma="fr-CA";
 
-/*
-Esto es un
-comentario de párrafo
- */
-
-$nombre ="Pepito";
-$apellido ="Martínez";
-$nacim=1999;
+$img1='wall-e.jpg';
 ?>
 
-<h1>1 Pepito Martinez nacido tiene 24 años</h1>
+<!DOCTYPE html>
+<html lang="<? echo $idioma ?>">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><? echo $nombre?></title>
+    <meta name="description" content="<? echo $nombre?> es no de los mejores sitios de su sector.">
+</head>
+<body>
+    <h1><? echo $nombre?></h1>
+    <h2>Bienvenidos a <? echo $nombre?></h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus rem nisi perspiciatis ipsa consectetur vel in blanditiis? Atque, voluptatem tempore voluptatibus ex repudiandae aliquid debitis, iste minus, maxime at nobis.</p>
+    <img src="img/<? echo $img1?>" alg="<? echo $nombre?>">
+    <footer>
+        <p>&copy; Copyright <? echo $year?> - <? echo $nombre?></p>
+    </footer>
 
-<h1>2 <? echo $nombre?> <? echo $apellido?> nacido tiene <? echo (2023-$nacim)?> años</h1>
+    <img src="img/<? echo $img1?>" alg="<? echo $nombre?>">
+    <img src="img/<? echo $img1?>" alg="<? echo $nombre?>">
+
+    <img src="img/<? echo $img1?>" alg="<? echo $nombre?>">
+
+</body>
+</html>
