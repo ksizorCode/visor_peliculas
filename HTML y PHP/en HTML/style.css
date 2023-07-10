@@ -3,7 +3,8 @@ body{
     max-width: 640px;
     margin:0 auto;
     padding: 20px;
-    background: coral;
+   
+    background: linear-gradient(orange, purple, lightskyblue);
 }
 
 ul{
@@ -16,15 +17,18 @@ ul{
 
 
 ul li{
-    border: solid 1px grey;
+    border: solid 1px black;
+    background:#ffffff88;
     border-radius: 20px;
-    padding: 20px;
+    padding: 10px;
+    box-shadow: 2px 2px 8px #00000088;
 }
 
 ul li img{
-    height: 30%;
+    width: 100%;
     aspect-ratio: 2/3;
     object-fit: cover;
+    border-radius: 8px;
 }
 
 img{ max-width: 100%;}
