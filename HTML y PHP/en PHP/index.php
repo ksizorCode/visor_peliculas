@@ -44,16 +44,7 @@ foreach($salas as $misala){
 
 
 ?>
-    <li>
-        <img src="img/<? echo $sala1[1]?>" alt="Misión Imposible 7">
-        <h3><? echo $sala1[0]?></h3>
-        <p><? echo $sala1[2]?></p>
-        <p><? echo $sala1[3]?></p>
-        <p><? echo $sala1[4]?></p>
-    </li>
-
-
-
+ 
 </ul>
 
 </main>
