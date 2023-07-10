@@ -2,11 +2,10 @@
 $titulo="Cine Tricampus";
 
 // Array = contiene una lista de elementos
-$salas=[
-    ['Barbie','barbie.jpg','16:00','18:00','20:00'],
-    ['Mision Imposible','misionimposible.jpg','16:00','18:00','20:00'],
-    ['Oppenheimer','Oppenheimer.jpg','16:00','18:00','20:00']
-];
+$salas1=['Barbie','barbie.jpg','16:00','18:00','20:00'];
+$salas2=['Mision Imposible','misionimposible.jpg','16:00','18:00','20:00'];
+$salas3=['Oppenheimer','Oppenheimer.jpg','16:00','18:00','20:00'];
+// $sala1[0]
 
 
 ?>
