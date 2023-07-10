@@ -1,0 +1,29 @@
+body{
+    font-family: sans-serif;
+    max-width: 640px;
+    margin:0 auto;
+    padding: 20px;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+    
+    display: flex;
+    gap: 10px;
+}
+
+
+ul li{
+    border: solid 1px grey;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+ul li img{
+    height: 30%;
+    aspect-ratio: 2/3;
+    object-fit: cover;
+}
+
+img{ max-width: 100%;}
